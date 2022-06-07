@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #eec9d2;
+  width: 30vw;
+}
+
+nav ul li.a-wrap {
+  list-style: none;
+}
+
+nav ul .a-link {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #eec9d2;
+}
+
+.title-wrap {
+  background-image: url(../imges/coffee-img-01.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.title-wrap h1 {
+  color: white;
+  margin-left: 50%;
+}
+
+.box-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box-wrap .box {
+  text-align: center;
+  background-color: aqua;
+  width: 75vw;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
